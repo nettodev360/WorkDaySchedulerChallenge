@@ -1,15 +1,21 @@
+/* Css styling derived from MDN: https://developer.mozilla.org/en-US/docs/Web/CSS */
+
 *{
     font-family: 'Roboto Mono', monospace;
     font-size: 18px;
     line-height: 1.5;
 }
 
+body {
+    background-color: slategrey;
+}
+
 .jumbotron {
     text-align: center;
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     border-radius: 2px;
-    border-bottom: 10px solid black;
+    border-bottom: 10px dashed white;
 }
 
 .hour {
@@ -20,4 +26,23 @@
 
 .agenda {
     white-space: wrap;
+}
+
+.time-block {
+    text-align: center;
+    border-radius: 20px;
+}
+
+textarea {
+    background: white;
+    border: none;
+    color: black;
+    border-left: 1px solid;
+    padding: 15px;
+}
+
+.row {
+    white-space: pre-wrap;
+    height: 100px;
+    border-top: 2px solid white;
 }
