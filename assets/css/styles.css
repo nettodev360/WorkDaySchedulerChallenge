@@ -1,0 +1,23 @@
+*{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: white;
+    color: black;
+    border-radius: 2px;
+    border-bottom: 10px solid black;
+}
+
+.hour {
+    background-color: white ;
+    color: black;
+    border-top: 2px solid white;  
+}
+
+.agenda {
+    white-space: wrap;
+}
