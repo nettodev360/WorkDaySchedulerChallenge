@@ -1,6 +1,14 @@
 // Display today's day and date
-var todayDate = moment("2022-09-23").format('dddd, MMM Do YYYY');
-$("#today").html(todayDate);
+// var todayDate = moment("2022-09-23").format('dddd, MMM Do YYYY');
+// $("#today").html(todayDate);
+
+var myVar = setInterval(myTimer, 1000);
+
+function myTimer() {
+    var d = new Date();
+    var t = d.toLocaleTimeString();
+    document.getElementById("today").innerHTML = t;
+}
 
 $(document).ready(function () {
     // saveBtn click listener 
