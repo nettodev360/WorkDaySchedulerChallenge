@@ -6,9 +6,17 @@ var myVar = setInterval(myTimer, 1000);
 
 function myTimer() {
     var d = new Date();
-    var t = d.toLocaleTimeString();
+    var t = d.toLocaleString();
     document.getElementById("today").innerHTML = t;
 }
+
+// var currentdate = new Date(); 
+// var datetime = "Last Sync: " + currentdate.getDate() + "/"
+//                 + (currentdate.getMonth()+1)  + "/" 
+//                 + currentdate.getFullYear() + " @ "  
+//                 + currentdate.getHours() + ":"  
+//                 + currentdate.getMinutes() + ":" 
+//                 + currentdate.getSeconds();
 
 $(document).ready(function () {
     // saveBtn click listener 
